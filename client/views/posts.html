@@ -1,0 +1,63 @@
+<template name="posts">
+
+	<header id="page_header">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-10">
+					<h1>Post</h1>
+				</div>
+				<div class="col-xs-2">
+					<div class="action">
+						<a href="/admin/new/post" class="btn btn-sm btn-success pull-right">
+							<span class="glyphicon glyphicon-floppy-disk"></span>
+							Add Post
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<section class="section-main {{appConf}}">
+		<div class="container container-main">
+			<table class="table">
+				<thead>
+				<tr>
+					<th>_id</th>
+					<th>Name</th>
+					<th><div class="pull-right">Action</div></th>
+				</tr>
+				</thead>
+				<tbody>
+
+				{{#each posts}}
+
+				<tr>
+					<td>{{_id}}</td>
+					<td>{{name}}</td>
+					<td>
+						<div class="pull-right">
+							<a class="btn btn-sm btn-success" href="/admin/post/{{_id}}">
+								<span class="glyphicon glyphicon-floppy-remove"></span>
+								Edit
+							</a>
+
+							<button
+									_id="{{_id}}"
+									type="button"
+									class="btn btn-sm btn-danger remove">
+								<span class="glyphicon glyphicon-floppy-saved"></span>
+								Delete
+							</button>
+						</div>
+					</td>
+				</tr>
+
+				{{/each}}
+
+				</tbody>
+			</table>
+		</div>
+	</section>
+
+</template>

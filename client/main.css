@@ -1,0 +1,112 @@
+
+#main {
+    padding-top: 50px;
+}
+
+.section-main{
+    height: 700px;
+}
+
+.container-main{
+    background: #fff;
+    padding-top: 50px;
+}
+
+header#page_header {
+    padding-top: 50px;
+    background: #e5e5e5;
+}
+
+header .action{
+    padding-top: 18px;
+}
+
+
+
+/************************ table-grey ******************************/
+.table-grey thead {
+    background: #808080;
+    color: #fff;
+}
+
+.table-grey tbody tr:nth-child(even) {
+    background: #FFF;
+}
+
+.table-grey tbody tr:nth-child(odd) {
+    background: #CCC;
+}
+
+/************************ table-blue ******************************/
+
+.table-blue thead {
+    background: #269abc;
+    color: #fff;
+}
+
+.table-blue tbody tr:nth-child(even) {
+    background: #FFF;
+}
+
+.table-blue tbody tr:nth-child(odd) {
+    background: #dae5f4;
+}
+
+.table-blue th,
+.table-blue td
+{
+    padding: 7px;
+    border: #4e95f4 1px solid !important;
+}
+
+/************************ table-red ******************************/
+
+.table-red thead {
+    background: #a94442;
+    color: #fff;
+}
+
+.table-red tbody tr:nth-child(even) {
+    background: #FFF;
+}
+
+.table-red tbody tr:nth-child(odd) {
+    background: #ce8483;
+}
+
+.table-red th,
+.table-red td
+{
+    padding: 7px;
+    border: #a94442 1px solid !important;
+}
+
+
+.stairs {
+    background:
+    linear-gradient(63deg, #999 23%, transparent 23%) 7px 0,
+    linear-gradient(63deg, transparent 74%, #999 78%),
+    linear-gradient(63deg, transparent 34%, #999 38%, #999 58%, transparent 62%),
+    #444;
+    background-size: 16px 48px;
+}
+
+.half-rombes {
+    background: #36c;
+    background:
+    linear-gradient(115deg, transparent 75%, rgba(255,255,255,.8) 75%) 0 0,
+    linear-gradient(245deg, transparent 75%, rgba(255,255,255,.8) 75%) 0 0,
+    linear-gradient(115deg, transparent 75%, rgba(255,255,255,.8) 75%) 7px -15px,
+    linear-gradient(245deg, transparent 75%, rgba(255,255,255,.8) 75%) 7px -15px,
+    #36c;
+    background-size: 15px 30px;
+}
+
+.arrows {
+    background:
+    linear-gradient(45deg, #92baac 45px, transparent 45px)64px 64px,
+    linear-gradient(45deg, #92baac 45px, transparent 45px,transparent 91px, #e1ebbd 91px, #e1ebbd 135px, transparent 135px),
+    linear-gradient(-45deg, #92baac 23px, transparent 23px, transparent 68px,#92baac 68px,#92baac 113px,transparent 113px,transparent 158px,#92baac 158px);
+    background-color:#e1ebbd;
+    background-size: 128px 128px;
+}
